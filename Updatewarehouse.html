@@ -1,0 +1,40 @@
+<head>
+<link rel="stylesheet" href="inventory.css">
+</head>
+<body>
+<form name=f method=post  action="warehouse.jsp ">
+    <table style="position: absolute; left:30%; top:10%; border-collapse: collapse;">
+     <tr>
+ <th colspan=2><h3>UPDATE WAREHOUSE</h3></th>
+</tr>
+    <tr>
+        <th>Id:</th>
+        <th><input type=text name=t1></th>
+    </tr>
+    <tr>
+        <th>Name</th>
+        <th><input type=text name=t2></th>
+    </tr>
+    <tr>
+        <th>Isrefrigerated</th>
+        <th><input type=text name=t3></th>
+    </tr>
+    
+    <tr>
+        <th colspan=2>
+        <input type=button value=New class=" button button1">
+        <input type=submit value=Save name=b1 class=" button button2">
+        <input type=submit value=Allsearch name=b1 class=" button button3">
+        <input type=submit value=Psearch name=b1 class=" button button4">
+        <input type=button value=Home onclick=My_menu() class=" button button5">
+         <input type=submit value=search name=b1 class=" button button2"></th>
+    </tr>
+    </table>
+    </form>
+    </body>
+     <script>
+    function My_menu()
+    {
+    	window.open("Mymenu.html","_self")
+    	}
+    </script>

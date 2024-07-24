@@ -1,0 +1,108 @@
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+   
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items:right;
+    height: 100vh;
+    margin: 0;
+}
+table{
+    background-color:transparent;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align:center;
+}
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+   tr,th{
+     display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+input {
+    width: calc(100% - 20px);
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+.button:hover {
+    background-color: #0056b3;
+}
+
+p {
+    margin-top: 15px;
+    color: #333;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+h1{ 
+ position:absolute;
+ right:60%;
+ top:35%;
+ font-weight: 700;
+
+}
+h1 span{
+    color: green;
+     font-weight: 1500;
+    font-size: 2.5rem;
+}
+</style>
+<body style="background: url(loginimage.jpeg);background-size: 100vw 100vh " >
+<form name=f method=post  action="Login.jsp">
+<div>
+<h1>Welcome, <br> <span>Inventory Management <br> System</span></h1>
+</div>
+<table style="position: absolute; left:60%; top:20%; border-collapse: collapse;" >       
+ <tr>
+ <th colspan=2><h2>LOGIN</h2></th>
+</tr>
+    <tr class=input-group>
+        <th>Username</th>
+        <th><input type=text placeholder="Enter Username" name=t1 required></th>
+    </tr>
+    <tr class=input-group>
+        <th>Password</th>
+        <th><input type=text placeholder="Enter Password" name=t2  required ></th>
+    </tr>
+    <tr>
+    <th colspan=2 > 
+     <input type=submit class=button value=Login  name=b1 ></th>
+     <th><p>Don't have an account? <a href="register.html">Register</a></p></th>
+     </tr>
+</table>
+</form>
+</body>

@@ -1,0 +1,58 @@
+<head>
+<link rel="stylesheet" href="inventory.css">
+</head>
+<body style="background: url(image4.png);">
+<form name=f method=post  action="product.jsp">
+    <table border=3	 style="position: absolute; left:30%; top:10%; border-collapse: collapse;">
+    <tr>
+ <th colspan=2><h3>PRODUCT</h3></th>
+</tr>
+    <tr>
+        <td>id</td>
+        <td><input type=text name=t1></td>
+    </tr>
+    <tr>
+        <td>barcode</td>
+        <td><input type=text name=t2></td>
+    </tr>
+    <tr>
+        <td>name</td>
+        <td><input type=text name=t3></td>
+    </tr>
+    <tr>
+        <td>desc</td>
+        <td><input type=text name=t3></td>
+    </tr>
+    <tr>
+        <td>category</td>
+        <td><input type=text name=t3></td>
+    </tr>
+    <tr>
+        <td>qty</td>
+        <td><input type=text name=t3></td>
+    </tr>
+    <tr>
+        <td>weight</td>
+        <td><input type=text name=t3></td>
+    </tr>
+    <tr>
+        <td>refrigenated</th>
+        <td><input type=text name=t3></td>
+    </tr>
+    <tr>
+        <th colspan=2>
+        <input type=button value=New class=" button button1">
+        <input type=submit value=Save name=b1 class=" button button2">
+        <input type=submit value=Allsearch name=b1 class=" button button3">
+        <input type=submit value=Psearch name=b1 class=" button button4">
+        <input type=button value=Home onclick=My_menu() class=" button button5"></th>
+    </tr>
+    </table>
+    </form>
+    </body>
+    <script>
+    function My_menu()
+    {
+    	window.open("Mymenu.html","_self")
+    	}
+    </script>
